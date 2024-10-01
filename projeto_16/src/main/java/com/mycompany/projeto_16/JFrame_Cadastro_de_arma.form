@@ -1,0 +1,269 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Form version="1.3" maxVersion="1.9" type="org.netbeans.modules.form.forminfo.JFrameFormInfo">
+  <NonVisualComponents>
+    <Component class="javax.swing.ButtonGroup" name="buttonGroup1">
+    </Component>
+  </NonVisualComponents>
+  <Properties>
+    <Property name="defaultCloseOperation" type="int" value="3"/>
+  </Properties>
+  <SyntheticProperties>
+    <SyntheticProperty name="formSizePolicy" type="int" value="1"/>
+    <SyntheticProperty name="generateCenter" type="boolean" value="false"/>
+  </SyntheticProperties>
+  <AuxValues>
+    <AuxValue name="FormSettings_autoResourcing" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_autoSetComponentName" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_generateFQN" type="java.lang.Boolean" value="true"/>
+    <AuxValue name="FormSettings_generateMnemonicsCode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_i18nAutoMode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_layoutCodeTarget" type="java.lang.Integer" value="1"/>
+    <AuxValue name="FormSettings_listenerGenerationStyle" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_variablesLocal" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_variablesModifier" type="java.lang.Integer" value="2"/>
+  </AuxValues>
+
+  <Layout>
+    <DimensionLayout dim="0">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" attributes="0">
+              <EmptySpace max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                  <Group type="102" alignment="0" attributes="0">
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Component id="jlbl_Modelo_da_Arma" alignment="0" min="-2" max="-2" attributes="0"/>
+                          <Component id="jlbl_marca_arma" alignment="0" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace type="separate" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                          <Component id="jtxtf_campo_marca_arma" pref="323" max="32767" attributes="0"/>
+                          <Component id="jtxtf_campo_modelo_arma" alignment="0" max="32767" attributes="0"/>
+                      </Group>
+                  </Group>
+                  <Group type="102" alignment="0" attributes="0">
+                      <Component id="jlbl_calibre" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Component id="jtxtf_campo_calibre" min="-2" pref="145" max="-2" attributes="0"/>
+                      <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                      <Component id="jlbl_capacidade" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Component id="jtxtf_campo_capacidade" max="32767" attributes="0"/>
+                  </Group>
+                  <Group type="102" alignment="0" attributes="0">
+                      <Component id="jlbl_comprimento_total" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Component id="jtxtf_campo_comprimento_total" max="32767" attributes="0"/>
+                  </Group>
+                  <Group type="102" alignment="0" attributes="0">
+                      <Component id="jlbl_comprimento_cano" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Component id="jtxtf_campo_comprimento_cano" max="32767" attributes="0"/>
+                  </Group>
+                  <Group type="102" alignment="0" attributes="0">
+                      <Group type="103" groupAlignment="1" max="-2" attributes="0">
+                          <Group type="102" alignment="0" attributes="0">
+                              <Component id="jlbl_trava_gatilho" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace max="32767" attributes="0"/>
+                              <Component id="jckbx_possui_2" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <Group type="102" alignment="0" attributes="0">
+                              <Component id="jlbl_trava_percussor" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace type="separate" max="-2" attributes="0"/>
+                              <Component id="jckbx_possui" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                      </Group>
+                      <EmptySpace type="separate" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Component id="jckbx_nao_possui" min="-2" max="-2" attributes="0"/>
+                          <Component id="jckbx_nao_possui_2" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                  </Group>
+                  <Group type="102" alignment="0" attributes="0">
+                      <Component id="jlbl_acabamento" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                      <Component id="jtxtf_campo_acabamento" pref="141" max="32767" attributes="0"/>
+                      <EmptySpace type="separate" max="-2" attributes="0"/>
+                      <Component id="jlbl_peso" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace type="separate" max="-2" attributes="0"/>
+                      <Component id="jtxtf_peso" min="-2" pref="143" max="-2" attributes="0"/>
+                  </Group>
+              </Group>
+              <EmptySpace max="32767" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+    <DimensionLayout dim="1">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" alignment="0" attributes="0">
+              <EmptySpace max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="jlbl_Modelo_da_Arma" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="jtxtf_campo_modelo_arma" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Component id="jlbl_marca_arma" min="-2" max="-2" attributes="0"/>
+                  <Component id="jtxtf_campo_marca_arma" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="jlbl_calibre" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="jtxtf_campo_calibre" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="jlbl_capacidade" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="jtxtf_campo_capacidade" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="jlbl_comprimento_total" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="jtxtf_campo_comprimento_total" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="jlbl_comprimento_cano" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="jtxtf_campo_comprimento_cano" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="jlbl_trava_percussor" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="jckbx_possui" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="jckbx_nao_possui" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="jlbl_trava_gatilho" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="jckbx_possui_2" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="jckbx_nao_possui_2" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="jlbl_acabamento" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="jtxtf_campo_acabamento" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="jlbl_peso" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="jtxtf_peso" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace pref="23" max="32767" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+  </Layout>
+  <SubComponents>
+    <Component class="javax.swing.JLabel" name="jlbl_Modelo_da_Arma">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Modelo da arma:"/>
+        <Property name="toolTipText" type="java.lang.String" value=""/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="jtxtf_campo_modelo_arma">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="modelo arma"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jtxtf_campo_modelo_armaActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JLabel" name="jlbl_marca_arma">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Marca da arma:"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="jlbl_calibre">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Calibre:"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="jlbl_capacidade">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Capacidade:"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="jlbl_comprimento_total">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Comprimento total:"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="jlbl_comprimento_cano">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Comprimento do cano:"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="jlbl_trava_percussor">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Trava do Percussor:"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="jlbl_trava_gatilho">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Trava do Gatilho:"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="jlbl_acabamento">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Acabamento:"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="jlbl_peso">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Peso:"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JCheckBox" name="jckbx_possui">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Possui"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JCheckBox" name="jckbx_nao_possui">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="N&#xe3;o Possui"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JCheckBox" name="jckbx_possui_2">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Possui"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JCheckBox" name="jckbx_nao_possui_2">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="N&#xe3;o Possui"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="jtxtf_campo_marca_arma">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="marca arma"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="jtxtf_campo_calibre">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="calibre"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jtxtf_campo_calibreActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JTextField" name="jtxtf_campo_capacidade">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="capacidade"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="jtxtf_campo_comprimento_total">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="comprimento total"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="jtxtf_campo_comprimento_cano">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="comprimento cano"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="jtxtf_campo_acabamento">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="acabamento"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="jtxtf_peso">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="peso"/>
+      </Properties>
+    </Component>
+  </SubComponents>
+</Form>
